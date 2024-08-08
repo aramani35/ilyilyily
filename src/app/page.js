@@ -19,7 +19,7 @@ import tg1 from "/public/medias/tg1.jpg"
 import tg2 from "/public/medias/tg2.jpg"
 import tg3 from "/public/medias/tg3.jpg"
 
-import ag1 from "/public/medias/ag1.jpg"
+import ag1 from "../../public/medias/ag1.jpg"
 import ag2 from "/public/medias/ag2.jpg"
 import ag3 from "/public/medias/ag3.jpg"
 
