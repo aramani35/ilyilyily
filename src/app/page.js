@@ -5,25 +5,25 @@ import Lenis from '@studio-freight/lenis'
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useEffect } from 'react';
 
-import bgImage from "../../public/background/bg.png"
+import bgImage from "/public/background/bg.png"
 
-import pg1 from "../../public/medias/pg1.jpg"
-import pg2 from "../../public/medias/pg2.jpg"
-import pg3 from "../../public/medias/pg3.jpg"
+import pg1 from "/public/medias/pg1.jpg"
+import pg2 from "/public/medias/pg2.jpg"
+import pg3 from "/public/medias/pg3.jpg"
 
-import cg1 from "../../public/medias/cg1.jpg"
-import cg2 from "../../public/medias/cg2.jpg"
-import cg3 from "../../public/medias/cg3.jpg"
+import cg1 from "/public/medias/cg1.jpg"
+import cg2 from "/public/medias/cg2.jpg"
+import cg3 from "/public/medias/cg3.jpg"
 
-import tg1 from "../../public/medias/tg1.jpg"
-import tg2 from "../../public/medias/tg2.jpg"
-import tg3 from "../../public/medias/tg3.jpg"
+import tg1 from "/public/medias/tg1.jpg"
+import tg2 from "/public/medias/tg2.jpg"
+import tg3 from "/public/medias/tg3.jpg"
 
-import ag1 from "../../public/medias/ag1.jpg"
-import ag2 from "../../public/medias/ag2.jpg"
-import ag3 from "../../public/medias/ag3.jpg"
+import ag1 from "/public/medias/ag1.jpg"
+import ag2 from "/public/medias/ag2.jpg"
+import ag3 from "/public/medias/ag3.jpg"
 
-import end from "../../public/medias/end.jpg"
+import end from "/public/medias/end.jpg"
 
 export default function Home() {
 
