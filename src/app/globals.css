@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Regular';
+    src: url('../../public/fonts/Rubik-VariableFont_wght.ttf');
+}
+
+body{
+    background-image: url("../../public/background/bg.png");
+    margin: 0px;
+    font-family: 'Regular';
+    margin-top: 100vh;
+    margin-bottom: 100vh;
+}
