@@ -20,18 +20,15 @@ export default function Index({ imgs, title, para }) {
 
     const images = isImgsValid ? [
         {
-            src: imgs[0]["src"],
-            blurDataUrl: imgs[0]["blurDataURL"],
+            src: imgs[0],
             y: 0
         },
         {
-            src: imgs[1]["src"],
-            blurDataUrl: imgs[1]["blurDataURL"],
+            src: imgs[1],
             y: lg
         },
         {
-            src: imgs[2]["src"],
-            blurDataUrl: imgs[2]["blurDataURL"],
+            src: imgs[2],
             y: md
         }
     ] : [];
@@ -47,12 +44,10 @@ export default function Index({ imgs, title, para }) {
             </div>
             <div className={styles.images}>
                 {
-                    images.map( ({src, blurDataUrl, y}, i) => {
+                    images.map( ({src, y}, i) => {
                         return <motion.div style={{y}} key={`i_${i}`} className={styles.imageContainer}>
                             <Image 
                                 src={src}
-                                placeholder="blur"
-                                blurDataURL={blurDataUrl}
                                 alt="image"
                                 fill
                             />
